@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sparkle Heart</title>
+
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+
+  <!-- Include your custom CSS if needed -->
+
+  <!-- Include Bootstrap JavaScript (Popper.js and Bootstrap JS) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html"><img src="assets/img/BlackLogo3.jpg" alt="black-logo"></a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ideja</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Piesaki sapni</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Uzņēmējiem</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sapņu banka</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sapņus atbalsta</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">99 Iedvesmas stāsti</a>
+        </li>
+      </ul>
+      <a href="#" id="languageButton">LV</a>
+    </div>
+    <div class="d-lg-none d-xl-none">
+      <div class="navbar">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon custom-toggler-icon"></span>
+        </button>
+      </div>     
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+        <div class="row">
+          <div class="col-auto">
+            <a class="navbar-brand" href="index.html"><img src="assets/img/BlackLogo3.jpg" alt="black-logo"></a>
+          </div>
+        </div>
+        <div class="col-auto">
+          <div class="offcanvas-header d-flex justify-content-end">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>  
+        </div>      
+        <div class="offcanvas-body">
+          <div class="ml-auto text-center">
+            <a class="nav-link col-2" href="#">LV</a>
+            <a class="nav-link col-2" href="#">RUS</a>
+            <a class="nav-link col-2" href="#">ENG</a>
+          </div>
+          <ul class="navbar-nav ml-auto text-center" id="offcanvasContent">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ideja</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Piesaki sapni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Uzņēmējiem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sapņu banka</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sapņus atbalsta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">99 Iedvesmas stāsti</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="navBoarders">
+    <img src="assets/img/rippedNav.svg" alt="SVG Image" class="svg-border">
+  </div>  
+
+  <!-- Heading for Video Display -->
+  <header>
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+      <div style="position: relative;">
+        <div style="position: relative; text-align: center;">
+          <img src="assets/img/SparkleVideo1.png" alt="Image 1" class="img-fluid">
+          <img src="assets/img/button.svg" alt="Image 2" class="absolute-image">
+        </div>        
+      </div>
+    </div>
+  </header>
+
+  <!-- Info Section -->
+  <section id="infoSection">
+    <div class="container mx-auto my-5 d-flex justify-content-center align-items-center">
+      <h6 class="text-center">SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu mums visiem.Mēs esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.</h6>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <div id="gallerySection">
+    <div class="container-fluid">
+      <div class="galleryBoarders">
+        <img src="assets/img/rippedTop.svg" alt="SVG Image">
+      </div>
+      <div class="imageSection">
+        <div class="row no-gutters">
+          <div class="col-7 col-md-3 col-lg-3">
+            <img src="assets/img/Zanda_1.jpg" class="img-fluid" alt="Image 1">
+          </div>
+          <div class="col-5 col-md-3 col-lg-3">
+            <img src="assets/img/Sibilla_4.jpg" class="img-fluid" alt="Image 2">
+          </div>
+          <div class="col-5 col-md-3 col-lg-3">
+            <div class="row no-gutters">
+              <div class="col-12">
+                <img src="assets/img/Brinuma_meita-15.jpg" class="img-fluid" alt="Image 3">
+              </div>
+              <div class="col-12">
+                <img src="assets/img/Alina_1.jpg" class="img-fluid" alt="Image 4">
+              </div>
+            </div>
+          </div>
+          <div class="col-7 col-md-3 col-lg-3">
+            <img src="assets/img/Anda_2.jpg" alt="Image 5" >
+          </div>
+        </div>
+      </div>
+      <div class="galleryBoarders">
+        <img src="assets/img/rippedBot.svg" alt="SVG Image">
+      </div>
+    </div>
+  </div>
+
+  <!-- Button Section -->
+  <div id="buttonSection" class="d-flex justify-content-center align-items-center">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12 d-flex flex-column text-center btnColSection">
+          <h5>VĒLIES PIEPILDĪT SAVU SAPNI?</h5>
+          <button type="button" class="btn rounded-pill mx-auto px-4 py-3">Sapņotājiem</button>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 d-flex flex-column text-center btnColSection">
+          <h5>VĒLIES PALĪDZĒT KĀDAM PIEPILDĪT SAPNI?</h5>
+          <button type="button" class="btn rounded-pill mx-auto px-4 py-3">Uzņēmējiem</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- From Section -->
+  <div id="formSection" class="d-flex justify-content-center align-items-center">
+    <div class="container-fuild">
+      <h2 class="text-center">SAZINIES AR MUMS</h2>
+      <form>
+        <div class="row">
+          <div class="col-6">
+              <div class="form-group">
+            <input type="text" class="form-control" id="nameInput" placeholder="Vārds, Uzvārds*">
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-group">
+              <input type="text" class="form-control" id="emailInput" placeholder="E-Pasts*">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="phoneNumberInput" placeholder="Telefons*">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" id="messageTextarea" rows="3" placeholder="Jautājums, vai komentārs*"></textarea>
+        </div>
+        <div>
+          <p>* obligāti aizpildāmie lauki</p>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input custom-checkbox" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
+        </div>
+        <button type="submit" class="btn rounded-pill mx-auto px-4 py-3">Sūtīt</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Supporter Section-->
+  <div id="supporterSection" class="d-flex justify-content-center align-items-center">
+    <div class="container-fluid centered-container">
+      <h2 class="text-center">ATBALSTĪTĀJI</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-6">
+          <img src="assets/img/getlogo.png" alt="Teikums Logo" class="img-fluid logo px-3">
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <img src="assets/img/Group.png" alt="Sem Logo" class="img-fluid logo px-3">
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <img src="assets/img/Citybee-logo.png" alt="Citybee Logo" class="img-fluid logo px-3">
+        </div>
+        <div class="col-lg-3 col-md-3 col-6">
+          <img src="assets/img/logo.svg" alt="Linearis Logo" class="img-fluid logo px-3">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-white py-3">
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="row col-12 pt-5 px-5">
+        <div class="col-12 col-md-6 col-lg-3 text-left">
+          <img src="assets/img/GoldenV2Logo.png" alt="Golden Logo" class="img-fluid">
+          <h5 class="d-lg-none d-xl-none mt-4">Juris Gogulis</h5>
+        </div>
+        <div class="col-12 col-lg-3 d-none d-lg-block d-xl-block">
+          <ul class="list-unstyled text-left">
+            <li class="py-2">
+              <a href="#">Ideja</a>
+            </li>
+            <li class="py-2">
+              <a href="#">Piesaki sapni</a>
+            </li>
+            <li class="py-2">
+              <a href="#">Uzņēmējiem</a>
+            </li>
+            <li class="py-2">
+              <a href="#">Sapņu banka</a>
+            </li>
+            <li class="py-2">
+              <a href="#">Sapņus atbalsta</a>
+            </li>
+            <li class="py-2">
+              <a href="#">99 Iedvesmas stāsti</a>
+            </li>
+          </ul> 
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 d-none d-lg-block d-xl-block">
+          <h5 class="text-left">Biedrība SparkleHeart</h5>
+          <ul class="list-unstyled text-left">
+            <li class="py-1">Reģistrācijas nr. 40008293119</li>
+            <li class="py-1">Banka: SWEDBANK A/S</li>
+            <li class="py-1">LV52HABA0551047652465</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 d-flex flex-column align-lg-items-end">
+          <h5 class="text-right d-none d-lg-block d-xl-block">Juris Gogulis</h5>
+          <ul class="list-unstyled text-left text-lg-right text-md-right">
+            <li class="py-1">juris.gogulis@sparkleheart.org</li>
+            <li class="py-1">+37126890034</li>
+            <li class="py-1">Biķernieku iela 24a - 5, LV-1006</li>
+            <li class="d-lg-none d-xl-none py-1" id="bold-text">Skatīt rekvizītus</li>
+          </ul>
+          <div class="row align-items-end">
+            <div class="col-lg-12 col-md-12 d-flex justify-content-lg-end justify-content-md-end">
+              <a href="#"><img src="assets/img/IGVector.svg" alt="Instagram Logo" class="col-6" id="logoig"></a>
+              <a href="#"><img src="assets/img/FBVector.svg" alt="Facebook Logo" class="col-6" id="logofb"></a>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+    <div class="row mx-5 mt-4">
+      <div class="col-xs-12 col-md-6 col-lg-6  text-left">
+        <p>© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-6 text-right text-lg-right text-md-right">
+        <p class="text-left text-lg-right text-md-right">Privātuma politika</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (Optional) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
